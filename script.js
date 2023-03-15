@@ -53,11 +53,21 @@ return viral;
 const result3 = topViral("Bad Bunny", "Shakira", "Drake");
 console.log(result3);
 
+function displayUserId(user) {
+    console.log(user[1]);
+}
+const user = ["Tom Clark", 333];
+displayUserId(user);
 
+const author = "Michael Lewis";
+const title = "Lies Poker";
+const year = 2015;
 
+function displayAuthor(author) {
+    console.log(author);
 
-
-
+}
+displayAuthor(author);
 
 
 

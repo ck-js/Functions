@@ -65,13 +65,32 @@ const year = 2015;
 
 function displayAuthor(author) {
     console.log(author);
-
 }
-displayAuthor(author);
+function displayTitle(title) {
+    console.log(title);
+}
+ function displayYear(year) {
+    console.log(year);
+ }      
+        
+    displayAuthor(author);
+displayTitle(title);
+displayYear(year);
 
+function isLegalAge(age) {
+    return age >= 21;
+}
+const legalAge = isLegalAge(22);
+console.log(legalAge);
 
+function snooze(time, snooze) {
+    return time + snooze;
+}
+const newAlarm = snooze(1300, 15);
+console.log(newAlarm);
 
-
-
-
-
+function isSameWord(word) {
+    return word === "chicken";
+}
+const sameWord = isSameWord("pork");
+console.log(sameWord)

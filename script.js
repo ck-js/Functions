@@ -94,3 +94,25 @@ function isSameWord(word) {
 }
 const sameWord = isSameWord("pork");
 console.log(sameWord)
+
+function studentNames(name) {
+console.log(name);
+}
+const students = ["Jack", "Tommy", "Natalee"];
+studentNames(students);
+ function numberOfNames(name) {
+    console.log(name.length);
+ }
+numberOfNames(students);
+
+function displayFirstName(name) {
+    console.log(name[0]);
+}
+displayFirstName(students);
+
+function getListOfNames(name) {
+    return name[0] + ", " + name[1];
+} 
+const list = getListOfNames(students);
+console.log(list);
+

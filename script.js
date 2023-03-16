@@ -116,3 +116,9 @@ function getListOfNames(name) {
 const list = getListOfNames(students);
 console.log(list);
 
+function getAverageGrades(grades) {
+    return (grades[0] + grades[1] + grades[2]) / grades.length;
+}
+const grades = [50, 70, 80];
+const averageGrades = getAverageGrades(grades);
+console.log(averageGrades);
